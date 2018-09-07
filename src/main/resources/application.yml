@@ -1,2 +1,12 @@
 server:
   port: 8800
+
+
+
+
+#属性配置
+com:
+  sam:
+    name: sam.playBoy
+    age:  20
+    desc: ${com.sam.name} is ${com.sam.age} years old.

@@ -35,6 +35,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- 注解ConfigurationProperties所属jar包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- 打开开发环境调试功能 同时plugin 增加spring-boot-maven-plugin configuration - fork - true  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
